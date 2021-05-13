@@ -30,7 +30,7 @@ There are also two modules for **scripting** physics-based behavior:
 
 ## Rigidbody
 
-A Rigidbody in Unity is a component which when added to any GameObject **allows it to interact with fundamental physics behavior**, for example forces such as gravity and acceleration. A GameObject that has a Rigidbody component will be treated as a real-world object in the physical world - affected by gravity, acceleration and mass.
+A Rigidbody in Unity is a component which when added to any GameObject **allows it to interact with fundamental physics behavior**, for example **with!** forces such as gravity and acceleration. A GameObject that has a Rigidbody component will be treated as a real-world object in the physical world - affected by gravity, acceleration and mass.
 
 Suppose you have a cube object in your game which you want to act like a real-world object, following the law of gravity, having mass and feeling heavy when it is pushed and pulled.
 
