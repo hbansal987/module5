@@ -35,11 +35,12 @@ public class CameraController : MonoBehaviour
 }
 }
 ```
+3. **Code Explain**
 
 [comment]: <GM: console - "The referenced script (Unknown) on this Behaviour is missing!" Also - drop the script into the inspector window rather than the hierarchy window? Do they both work the same?>
 
-3. Attach the `CameraController` script to the main camera by dragging and dropping the script to the `Main Camera` object in the _hierarchy window_. And then in the _inspector window_ set the `Target` of the script to our character, `ModularCharacterBase`, under the Assets list **In the hierarchy window!**. 
+4. Attach the `CameraController` script to the main camera by dragging and dropping the script to the `Main Camera` object in the _hierarchy window_. And then in the _inspector window_ set the `Target` of the script to our character, `ModularCharacterBase`, under the Assets list **In the hierarchy window!**. 
 
 [comment]: <GM: what do you mean by zooming the camera in and out?>
 
-4. Go ahead and click on Play and try zooming the camera in and out. Also notice that the Camera object now follows our character as it moves. **The zoom in and zoom out is done by the mouse scroll wheel.!**
+5. Go ahead and click on Play and try zooming the camera in and out. Also notice that the Camera object now follows our character as it moves. **The zoom in and zoom out is done by the mouse scroll wheel.!**
