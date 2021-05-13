@@ -10,7 +10,7 @@ isPublicLesson: true
 ### Tidy up
 
 [comment]: <GM: do you mean that any collider components for water objects are unchecked? What collider would we have used for water? Or is it another setting?  Note, this might cause an issue as the character will be walking on the ground so if the pond/water has a collider on it then it will interfere with the character's movement>
-We're going to go back to our game world now to look some more at movement. Before anything else, make sure that the collision on any water body such as the pond is unchecked, as we don't want it to interfere with the movement of our character. This might cause an issue as the character will be walking on the ground so if the pond/water has a collider on it then it will interfere with the character's movement
+We're going to go back to our game world now to look some more at movement. Before anything else, make sure that the **collider!** on any water body such as the pond is unchecked, as we don't want it to interfere with the movement of our character. This might cause an issue as the character will be walking on the ground so if the pond/water has a collider on it then it will interfere with the character's movement
 
 You will often hear terms such as first-person and third-person in gaming.  First-person means that the game world is being seen through the character's eyes. Third-person is a perspective in which the player (ie you) can visibly see the body of the controlled character. The third-person perspective puts you in direct control of a character that you can actually see in front of you.
 
