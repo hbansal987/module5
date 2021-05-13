@@ -61,7 +61,7 @@ Now let's go ahead and add a starting idle animation to our character. When we p
     
 15.  For the `Controller` property select `Idle Animation` (the one we have just been working on).
     
-16.  For `Avatar` choose `BaseMeshAvatar`. Make suure that the Update Mode property has its value set to Normal and the Culling Mode property has its value set to Always Animate
+16.  For `Avatar` choose `BaseMeshAvatar`. Make sure that the Update Mode property has its value set to Normal and the Culling Mode property has its value set to Always Animate
 
 [comment]: <GM: the image below shows RigidBody and CapsuleColllider components on the character but I don't think we've added them yet>
 [comment]: <GM: you don't say to set the Animator Component properties like Update Mode and CullingMode, or uncheck Root Motion?: Addressed above in line #55>
