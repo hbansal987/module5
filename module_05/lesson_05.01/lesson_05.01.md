@@ -40,7 +40,7 @@ In your scene make a 3D Plane and then a 3D Cube which will be placed on top of 
 [comment]: <GM: NOTE my 3D plane does not look 3D like yours. Scaling teh y axis does not give it any height>
 ![1.png](public/assets/1.png)
 
-Now let's add the Rigidbody component to the cube. Select the cube and then in the _inspector window_ click on `Add Component > Physics > Rigidbody`
+Now let's add the Rigidbody component to the cube. Select the cube and then in the _inspector window_ click on **`Add Component > Rigidbody`!**
 
 ![2.gif](public/assets/2.gif)
 
