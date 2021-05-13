@@ -61,12 +61,16 @@ Now let's go ahead and add a starting idle animation to our character. When we p
     
 14.  For the `Controller` property select `Idle Animation` (the one we have just been working on).
     
-15.  For `Avatar` choose `BaseMeshAvatar`. Make sure that the Update Mode property has its value set to Normal and the Culling Mode property has its value set to Always Animate </br>
+15.  For `Avatar` choose `BaseMeshAvatar`. Make sure that the Update Mode property has its value set to Normal and the Culling Mode (hiding) property has its value set to Always Animate </br>
 **The Update Mode property can take 3 values:!** </br>
-    **1.  Normal: The animator is updated normally.** </br>
-    **2.  AnimatePhysics: The animator is syncronysed with the physics engine. The animator is updated during the physic loop.** </br>
-    **3.  UnscaledTime: The updation of the animator has no relation with Time.timeScale (clock of the game).** </br>
-Hello hello
+    **1.  Normal: The animator is updated normally.!** </br>
+    **2.  AnimatePhysics: The animator is syncronysed with the physics engine. The animator is updated during the physic loop.!** </br>
+    **3.  UnscaledTime: The updation of the animator has no relation with Time.timeScale (clock of the game).!** </br>
+**The Culling Mode property can take 3 values:!** </br>
+    **1.  Always animate: The character is completely animated even when it is not visible on the screen.!** </br>
+    **2.  CullUpdateTransforms: The inverse kinematics transforms are diabled when the object is not visible on the screen.!** </br>
+    **3.  CullCompletely: Completely disabling the animation when the object is not visible on the screen.!** </br>
+
 
 [comment]: <GM: the image below shows RigidBody and CapsuleColllider components on the character but I don't think we've added them yet>
 [comment]: <GM: you don't say to set the Animator Component properties like Update Mode and CullingMode, or uncheck Root Motion?: Addressed above in line #55>
