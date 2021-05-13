@@ -35,7 +35,7 @@ But what if we disable the `Box Collider`?
 
 ![4.gif](public/assets/4.gif)
 
-Upon disabling the `Box Collider` we see that the cube simply passes through the pink plane. Colliders handle collisions between objects -  the `Box Collider` will decide whether two objects intersect each other or simply pass through.
+Upon disabling the `Box Collider` we see that the cube simply passes through the pink plane. Colliders handle collisions between objects -  the `Box Collider` will decide whether two objects intersect each other or **not!**.
 
 You can add multiple colliders to a GameObject which can be of the same or different types.
 
