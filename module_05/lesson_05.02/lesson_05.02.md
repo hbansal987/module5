@@ -67,7 +67,7 @@ Our collider is a solid volume, and as a result the pink cube cannot pass throug
 Now I'm going to check-mark the `Trigger` box for the large blue cube, which is supposedly water, and see what happens:
 
 ![is trigger](public/assets/8.gif)
-**The pink cube passes through the water cube and only gives a trigger(signal) that a collision has occured. This trigger can be used using a script.!** </br>
+**The pink cube passes through the water cube and only gives a trigger(signal) that a collision has occured. This trigger can be detected/used using a script.!** </br>
 You can reset the settings by clicking on the `3 dots icon > and then selecting Reset`
 
 [comment]: <GM: where is the gear icon?>
