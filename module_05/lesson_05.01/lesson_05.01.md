@@ -149,4 +149,4 @@ Here the left cube has rotation restricted along the X axis. If it did not, this
 
 ![nofreezerotationaxis](public/assets/18.gif)
 
-**Note: Two objects will reach the ground at the same time if they are dropped simultaneously from the same height, no matter their weight.**  This is because both the objects are affected by the same gravitational force.
+**Note: Two objects will reach the ground at the same time if they are dropped simultaneously from the same height, no matter their weight.**  This is because both the objects are affected by the same **gravity!**.
