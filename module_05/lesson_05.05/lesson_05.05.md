@@ -25,7 +25,7 @@ Left-click on the `Main Camera` in the _hierarchy view_. You can see it has a fe
 
 **Scale**  - how big the camera object is
 
-*Cameras use position and rotation. Scale gets ignored.*
+*Cameras use position and rotation. Scale gets ignored(**Because we focus on the view of the camera. The size of the camera itself doesn't matter.)!**.* 
 
 [comment]: <GM: what should happen with Perspective / Ortho and why? Addressed: added some text>
 
