@@ -36,7 +36,15 @@ public class CameraController : MonoBehaviour
 }
 ```
 3. **Code Explain** </br>
-Hello Hello
+**Objective** </br>
+The script for your camera which will follow our main character as it walks. The camera will also be able to zoom in and zoom out. </br>
+**Start** </br>
+We set the GameObject named target to our main character. It is used to tell our camera the object it has to follow. Also the zoom speed is set. This can also be changed from teh inspector window as it is set to public.</br>
+**Update**</br>
+The late update function is called after the simple update function is called. This means it is called after the player has moved. </br>
+Firstly using the LookAt function we change the camera position towards the position of the object. Then at every instance we get the value of the scroll button of teh mouse. If the value is non zero (we have move the scroll of the mouse) then we change the camera translation. This gives the effect of zooming in and zooming out. Transform.forward gets the z component (blue axis). We multiply it with the scroll value, predefined zoom speed and teh time frame interval.
+
+
 
 [comment]: <GM: console - "The referenced script (Unknown) on this Behaviour is missing!" Also - drop the script into the inspector window rather than the hierarchy window? Do they both work the same?>
 
