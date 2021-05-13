@@ -5,7 +5,7 @@ description: Now let's go ahead and add a starting idle animation to our charact
 isPublicLesson: true
 ---
 
-## Third person movement - part-2
+## Third person movement - part-1
 
 ### Tidy up
 
