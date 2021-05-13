@@ -63,9 +63,9 @@ Now let's go ahead and add a starting idle animation to our character. When we p
     
 15.  For `Avatar` choose `BaseMeshAvatar`. Make sure that the Update Mode property has its value set to Normal and the Culling Mode property has its value set to Always Animate
 The Update Mode property can take 3 values:
-  1. Normal: The animator is updated normally. 
-  2. AnimatePhysics: The animator is syncronysed with the physics engine. The animator is updated during the physic loop.
-  3. UnscaledTime: The updation of the animator has no relation with Time.timeScale (clock of the game).
+    1. Normal: The animator is updated normally. 
+    2. AnimatePhysics: The animator is syncronysed with the physics engine. The animator is updated during the physic loop.
+    3. UnscaledTime: The updation of the animator has no relation with Time.timeScale (clock of the game).
 
 [comment]: <GM: the image below shows RigidBody and CapsuleColllider components on the character but I don't think we've added them yet>
 [comment]: <GM: you don't say to set the Animator Component properties like Update Mode and CullingMode, or uncheck Root Motion?: Addressed above in line #55>
