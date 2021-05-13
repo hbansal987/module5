@@ -129,8 +129,8 @@ This is a corrective feature which is used to solve jittery motion. Physics exec
 This is another corrective feature, used to resolve collision errors which may occur on very fast objects such as bullets. It has three settings:
 
 [comment]: <GM: what does the Discrete setting do? Addresed: added some text>
-- **Discrete:** Default setting for rigidbodies. Is much faster than the Continuous and Continuous dynamic modes. This mode is not well suited for very fast movements such as bullets
-- **Continuous:** Set on the object that will be hit by or collide with the very fast object
+- **Discrete:** Default setting for rigidbodies. This mode is not well suited for very fast movements such as bullets **because it detects the collision in a discrete way. The fast moving object can be at one place at an instance and at the next instance it might arrive a new place. We would miss any collision that took place between these two instances.!**
+- **Continuous:** Set on the object that will be hit by or collide with the very fast object. **It continusely checks for the collision.!**
 - **Continuous dynamic:** Set on the very fast object (eg bullet)
 
 ### Constraints
