@@ -1,11 +1,11 @@
 ---
-title: Third person movement - part-1 
-slug: third-person-movement-part-1 
+title: Third person movement - part-1! 
+slug: third-person-movement-part-1! 
 description: Now let's go ahead and add a starting idle animation to our character. When we press on play, we want our game to start with the character having an animation of some sort. For us this will be idle animation 
 isPublicLesson: true
 ---
 
-## Third person movement - part-1
+## Third person movement - part-1!
 
 ### Tidy up
 
