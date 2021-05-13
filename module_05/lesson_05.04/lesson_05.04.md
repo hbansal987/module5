@@ -129,8 +129,9 @@ We set the speed of the movement of our character. We also set a rigidbody varia
 We assign the rigid body and the animator component of the ModularCharacterBase (our character) to the script's body and anim variables respectively. </br> 
 **Update**</br>
 At every frame update we check that whether there is any input in the horizontal axis (x component) or the vertical axis (z component).</br>
-If inputs are not equal to zeros ie. we have pressed some input buttons then we make our z axis (blue axis) face towards the input position. We also change our animation to a walking animation. If we don't have a walking input then we change our animation to the idle state. </br>
-The input vector that we have formed is multiplied with the predefiend speed and the time interval. It is then added to our initial position. We use the .MovePosition() to take our character to this new position. </br>
+If input is not equal to zero ie. we have pressed some input buttons then we make our character turn in that particular input position. This is done by making the z axis (blue axis) face towards the input position. We also change our animation to a walking animation. If we don't have a walking input then we change our animation to the idle state. </br>
+The input vector that we have formed is multiplied with the predefiend speed and the time interval. It is then added to our initial position. We use the .MovePosition() to take our character to this new position.</br>
+As this is updated continuesly so we feel that our character is moving whenever we press the input buttons
 
 20.  Select `ModularCharacterBase` in the _hierarchy window_ and drag and drop the `MovementController` script into the _inspector window_.
     
