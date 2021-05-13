@@ -58,7 +58,7 @@ Let's look at the properties of colliders by taking the `Box Collider` into cons
 
 **Edit Collider:** edits the size of the collider.
 
-**Is Trigger:** converts the collider into a trigger. A trigger is a non-solid volume such as a liquid or gas. By default a collider is a solid volume. Nothing can pass through a solid volume, however things can pass through non-solid volumes such as water or gas. Triggers are used to create a space which senses and triggers events when objects enter, stay or leave the space.
+**Is Trigger:** converts the collider into a trigger. A trigger is a non-solid volume such as a liquid or gas. By default a collider is a solid volume. Nothing can pass through a solid volume, however things can pass through non-solid volumes such as water or gas. Triggers are used to create a space which senses and triggers events when objects enter, stay or leave the space. **So this way we get to know when any other object enters the boundary of the collider!**.
 
 Our collider is a solid volume, and as a result the pink cube cannot pass through the blue cube. This is because both are solid objects and both have a `Rigidbody` component. 
 
