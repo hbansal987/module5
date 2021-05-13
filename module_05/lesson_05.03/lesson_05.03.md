@@ -61,7 +61,7 @@ Now let's go ahead and add a starting idle animation to our character. When we p
     
 15.  For the `Controller` property select `Idle Animation` (the one we have just been working on).
     
-16.  For `Avatar` choose `BaseMeshAvatar`. Make sure that the Update Mode property has its value set to Normal and the Culling Mode property has its value set to Always Animate </br>
+16.  For `Avatar` choose `BaseMeshAvatar`. Make sure that the Update Mode property has its value set to Normal and the Culling Mode property has its value set to Always Animate
 The Update Mode property can take 3 values: </br>
 1. Normal: The animator is updated normally. </br>
 2. AnimatePhysics: The animator is syncronysed with the physics engine. The animator is updated during the physic loop. </br>
