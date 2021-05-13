@@ -126,7 +126,7 @@ public class MovementController : MonoBehaviour
 The script is used to get the rigid body movement of our character. We can move our charater in the front,back,left and right position. We can also control the animation of our character using this script.</br>
 **Start** </br>
 We set the speed of the movement of our character. We also set a rigidbody variable which would be assigned to the rigidbody component of our character. We also take a Vector3 variable which is used to get the inputs for the character.</br>
-We assign the rigid body and the animator component of the ModularCharacterBase (our character) to the script. </br> 
+We assign the rigid body and the animator component of the ModularCharacterBase (our character) to the script's body and anim variables respectively. </br> 
 **Update**</br>
 At every frame update we check that whether there is any input in the horizontal axis (x component) or the vertical axis (z component).</br>
 If inputs are not equal to zeros ie. we have pressed some input buttons then we make our z axis (blue axis) face towards the input position. We also change our animation to a walking animation. If we don't have a walking input then we change our animation to the idle state. </br>
