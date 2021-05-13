@@ -73,7 +73,7 @@ However, when the right cube weighs more (5kg) than the left cube (1kg), the pla
 
 ### Drag
 
-This is resistance to **linear velocity** and it is used to slow down the motion of an object. So an object's fall or movement will be slowed by increasing the drag. At **0** drag, objects fall at `-9.81 m/s.`
+This is resistance to **linear velocity** and it is used to slow down the motion of an object. So an object's fall or movement will **be slowed!** by increasing the drag. At **0** drag, objects fall at `-9.81 m/s.`
 
 I'm going to increase the drag to **20** for both cubes and see how they move:
 
