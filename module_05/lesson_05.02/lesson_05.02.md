@@ -54,7 +54,7 @@ Let's look at the properties of colliders by taking the `Box Collider` into cons
 
 **Center:** indicates the offset of the collider from the center of an object. 0, 0, 0 will place the collider centrally on the object.
 
-**Material:** determines the physical material of a collider, plastic, metal, wood, glass etc. This is different from the material which controls the look of an object. This material controls the behavior of the collider.
+**Material:** determines the physical material of a collider, plastic, metal, wood, glass etc. This is different from the material which controls the look of an object. This material controls the behavior such as **bouncing effect and friction!** of the colliding bodies.
 
 **Edit Collider:** edits the size of the collider.
 
