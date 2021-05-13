@@ -57,7 +57,7 @@ Now let's go ahead and add a starting idle animation to our character. When we p
 
 12.  Now let's apply this animation to our prefab, so that when the game starts the character demonstrates an idle animation.
     
-13.  Select `ModularCharacterBase` in the _hierarchy window_ on the left, and in the _inspector window_ check that the `Animator` component is open. If not, add it from `Add Component`.
+13.  Select `ModularCharacterBase` in the _hierarchy window_ on the left, and in the _inspector window_ check that the `Animator` component is **checked!** open. If not, add it from `Add Component`.
     
 15.  For the `Controller` property select `Idle Animation` (the one we have just been working on).
     
