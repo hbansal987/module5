@@ -37,7 +37,7 @@ public class CameraController : MonoBehaviour
 ```
 3. **Code Explain** </br>
 **Objective** </br>
-The script for your camera which will follow our main character as it walks. The camera will also be able to zoom in and zoom out. </br>
+The script is for your camera which will follow our main character as it walks. The camera will also be able to zoom in and zoom out. </br>
 **Start** </br>
 We set the GameObject named target to our main character. It is used to tell our camera the object it has to follow. Also the zoom speed is set. This can also be changed from teh inspector window as it is set to public.</br>
 **Update**</br>
