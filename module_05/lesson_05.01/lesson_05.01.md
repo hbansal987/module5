@@ -1,13 +1,13 @@
 ---
 title: Unity physics system
 slug: unity-physics-system
-description: You might hear the word "physics" thrown around a lot in game development, so let's go over what physics means in Unity. In the real world, objects are affected by gravity, friction, collisions, weight etc. Likewise in a game! Objects are also affected by the forces of physics. 
+description: You might hear the word "physics" being thrown around a lot in game development, so let's go over what physics means in Unity. In the real world, objects are affected by gravity, friction, collisions, weight etc. Likewise in a game, objects are also affected by the forces of physics. 
 isPublicLesson: true
 ---
 
 ## Unity physics system
 
-You might hear the word "physics" thrown around a lot in game development, so let's go over what physics means in Unity. In the real world, objects are affected by gravity, friction, collisions, weight etc. Likewise in a game! Objects are also affected by the forces of physics. 
+You might hear the word "physics" **being** thrown around a lot in game development, so let's go over what physics means in Unity. In the real world, objects are affected by gravity, friction, collisions, weight etc. Likewise in a **game, objects** are also affected by the forces of physics. 
 
 To implement real-world behaviors in a game, there are two **physics engines** that Unity uses:
 
