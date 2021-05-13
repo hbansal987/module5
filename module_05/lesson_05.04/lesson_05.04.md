@@ -121,7 +121,7 @@ public class MovementController : MonoBehaviour
 }
 
 ```
-**Code Explain** </br>
+**Code Explain!** </br>
 **Objective** </br>
 The script is used to get the rigid body movement of our character. We can move our charater in the front,back,left and right position. We can also control the animation of our character using this script.</br>
 **Start** </br>
