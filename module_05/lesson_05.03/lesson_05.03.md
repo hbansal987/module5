@@ -28,7 +28,7 @@ Now let's go ahead and add a starting idle animation to our character. When we p
     
 4.  In the search bar search for `Happy Idle Variation 2`.
     
-5.  You will see a character, doing an animation on loop. Go ahead and click on `Download`.
+5.  You will see a character, doing an animation on loop. Go ahead and click on `Download`. **Select the `.fbx` file format for our animation and choose the T-pose in this case.!**
     
 
 ![idle animation](public/assets/2.gif)
