@@ -20,7 +20,7 @@ We will be using Rigidbody-based movement for our character to make it move left
 
 2.  Click on `Upload Character > Assets > GameAssets > Modular Character > Poses > animpose.fbx`
 
-3.  Now search for the `Walking` animation in the Mixamo animations page. Clicking on the walking animation, you should be able to see how it'll look on your character. Go ahead and click on `Download` to download the animation.
+3.  Now search for the `Walking` animation in the Mixamo animations page. Clicking on the walking animation, you should be able to see how it'll look on your character. Go ahead and click on `Download` to download the animation. **We need to download the .fbx file.!**
 
 [comment]: <GM: what does this mean? - Addressed, added an explanation,  also in reply to line #11 if it didnt work for you by uploading the character then you can just download the animation and import it into the game>
 _Note: You can also download the walking model as is_ Which means you don't have Upload your game character, apply the walking animation and then download the character with the walkign animation applied to it. 
