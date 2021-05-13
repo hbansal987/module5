@@ -1,13 +1,13 @@
 ---
 title: Colliders in Unity3D
 slug: colliders-in-unity3d
-description: Colliders are invisible shapes on 3D objects that handle collisions. A collider can be added to a GameObject as a component, just like the Rigidbody component.  
+description: Colliders are invisible shapes on 3D objects that detect collisions. A collider can be added to a GameObject as a component, just like the Rigidbody component.  
 isPublicLesson: true
 ---
 
 ## Colliders in Unity3D
 
-Colliders are invisible shapes on 3D objects that handle collisions. A collider can be added to a GameObject as a component, just like the Rigidbody component. There are six types of 3D colliders:
+Colliders are invisible shapes on 3D objects that **detect!** collisions. A collider can be added to a GameObject as a component, just like the Rigidbody component. There are six types of 3D colliders:
 
 - Box Collider
 - Sphere Collider
