@@ -118,6 +118,8 @@ On pressing the _play_ button we see that the cube on the right is not affected 
 
 ![15.gif](public/assets/15.gif)
 
+**It just acts like a Rigidbody which is restricting the movement of the plank(or any other body)!**
+
 ### Interpolate
 
 This is a corrective feature which is used to solve jittery motion. Physics executes at a fixed frame rate and sometimes character movement and graphics do not match, leading to jittery motion.
