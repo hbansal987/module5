@@ -1,7 +1,7 @@
 ---
 title: Third person movement
 slug: third-person-movement
-description: In this **module,** we'll be learning about a few fundamental concepts such as Rigidbody and **Colliders, which will assist us in moving our character**. We'll also learn how to add animations to our character.
+description: In this module, we'll be learning about a few fundamental concepts such as Rigidbody and Colliders, which will assist us in moving our character. We'll also learn how to add animations to our character.
 isPublicLesson: true
 ---
 
