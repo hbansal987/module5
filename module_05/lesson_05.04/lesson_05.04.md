@@ -1,7 +1,7 @@
 ---
 title: Third-person movement - part 2
 slug: third-person-movement-part-2
-description: We will be using Rigidbody-based movement for our character to make it move left, right, forward and backward. There are two general ways (*Rigidbody*-based method and *Kinematic*-based) to implement movement of a character in combination with Unity's physics engine.
+description: We will be using Rigidbody-based movement for our character to make it move left, right, forward and backward. There are two general ways (Rigidbody based method and Kinematic based method) to implement movement of a character in combination with Unity's physics engine.
 isPublicLesson: true
 ---
 
