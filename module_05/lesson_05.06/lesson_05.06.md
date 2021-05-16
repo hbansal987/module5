@@ -39,7 +39,7 @@ public class CameraController : MonoBehaviour
 **Objective!** </br>
 The script is for your camera which will follow our main character as it walks. The camera will also be able to zoom in and zoom out. </br>
 **Start!** </br>
-We use a Gameobject variable named "target" to tell our camera the object it has to follow. In our case it is our main character (as it is 3rd person view game). </br>
+We use a Gameobject variable named "target" to tell our camera the object it has to follow. In our case, the camera is following the main character (as it is 3rd person view game). </br>
 Also the zoom speed is set. This can also be changed from the inspector window as it is set to public.</br>
 **Update!**</br>
 The late update function is called after the simple update function is called. This means it is called after the player has moved. </br>
