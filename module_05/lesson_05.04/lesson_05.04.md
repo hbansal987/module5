@@ -137,7 +137,7 @@ FixedUpdate loops at a frequency of the physics system of unity. This means that
 The input vector that we have formed is multiplied with the predefiend speed and the time interval. It is then added to our initial position. We use the .MovePosition() to take our character to this new position. It is called in every fixedUpdate fucntion. We need to enable interpolation for the rigidbody. This leads to a smooth transition movement of the object from one frame to another. This smooth transition is required as the frame rate of the system is different from the physics loop rate.!!</br>
 As this is updated continuesly so we feel that our character is moving whenever we press the input buttons.
 **Conculsion!** </br>
-So we take the inputs for moving our character from our ke
+So we take the inputs for moving our character from the W,A,S,D keys. These inputs are recorded and we form a vector where our character should move. We switch between the walking and the idle animation depending whether any input is there or not. Then we finally move towards that position. A smooth movement is carried out as the refresh rate of FixedUpdate is higher than Update in our case.
 
 20.  Select `ModularCharacterBase` in the _hierarchy window_ and drag and drop the `MovementController` script into the _inspector window_.
     
