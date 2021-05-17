@@ -10,8 +10,8 @@ isPublicLesson: true
 ### Rigidbody-based movement
 
 We will be using Rigidbody-based movement for our character to make it move left, right, forward and backward. There are two general ways to implement movement of a character in combination with Unity's physics engine. 
-- The first is a *Rigidbody*-based method, in which the character behaves like a regular physics object which you can indirectly control by applying a physical force or changing its velocity. 
-- The second method is *Kinematic*-based, in which you directly control the character's movement via the physics engine which will detect collisions.
+- The first is a *Rigidbody*-based method, in which the character behaves like a regular physics object which you can indirectly control by applying a physical force or changing its velocity or we can move the position of our RigidBody. The force can be used to accelerate or deaccelerate an object. The RigidBody movements supports the collisions, this means that we collide (cannot pass through) other rigid bodies in our scene.
+- The second method is *Kinematic*-based, in which you directly control the character's movement via the physics engine which will not detect collisions. Our object can move in the scene through the Kinematic based movements but it would pass through the other bodies/objects present in the scene (no collision). As we need our character to collide with other objects in the scene so we use Rigidbody based movements in our game.
 
 ### Adding Rigidbody-based movement to your character
 
