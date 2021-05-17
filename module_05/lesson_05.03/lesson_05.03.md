@@ -86,5 +86,5 @@ Now let's go ahead and add a starting idle animation to our character. When we p
 19.  If the game object is a humanoid which in our case it is, then the value of the `Avatar` property will be the BaseMeshAvatar. Avatar is a way for Unity to find and configure the bones in the model. The definition given by Unity3D is:
     
 
-_The Avatar system is how Unity identifies that a particular animated model is humanoid in layout, and which parts of the model correspond to the legs, arms, head and body._
+_The Avatar system is how Unity identifies that a particular animated model is humanoid in layout, and which parts of the model correspond to the legs, arms, head and body._ </br>
 As the basic structure of most of the humanoids is same, that is, they have the same bone structure so we can use retargeting and inverse kinematics technique. These techniques help us to map the movement of other humanoid character (pre-coded/learnt by unity) to get the animation of our character. They learn for these reference character and give the animation to our character which is somewhat similar to the other humanoids. This techqiue of using various characters to understand the structure/movement of the new character is called retargeting or inverse kinematics.
