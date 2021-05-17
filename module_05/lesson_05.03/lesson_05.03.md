@@ -52,7 +52,7 @@ Now let's go ahead and add a starting idle animation to our character. When we p
     
 
 ![4.gif](public/assets/4.gif)
-An animator controller controls the logic for a characters movement such as when to go from resting to walking state and how fast to walk etc. The animation controller helps us to control and maintain various animations for an object. The transition between various animations, their properties and various conditions can be controlled by the animation controller. The animation controller is represented as a block diagram and we can visually see the flow/connection between various blocks/animations.!! </br>
+An animator controller controls the logic for the characters movement such as when to go from resting to walking state and how fast to walk etc. It helps us to control and maintain various animations for an object. The transition between various animations, their properties and various conditions can be controlled by it. It is represented as a block diagram and we can visually see the flow/connection between various blocks/animations.!! </br>
 ![animator](public/assets/5.png)
 
 12.  Now let's apply this animation to our prefab, so that when the game starts the character demonstrates an idle animation.
@@ -88,4 +88,4 @@ An animator controller controls the logic for a characters movement such as when
     
 
 _The Avatar system is how Unity identifies that a particular animated model is humanoid in layout, and which parts of the model correspond to the legs, arms, head and body._ </br>
-As the basic structure of most of the humanoids is same, that is, they have the same bone structure so we can use retargeting and inverse kinematics technique. These techniques help us to map the movement of other humanoid character (pre-coded/learnt by unity) to get the animation of our character. They learn for these reference character and give the animation to our character which is somewhat similar to the other humanoids. This techqiue of using various characters to understand the structure/movement of the new character is called retargeting or inverse kinematics.!!
+As the basic structure of most of the humanoids is same, that is, they have the same bone structure so we can use retargeting and inverse kinematics technique for thie animation. These techniques help us to map the movement of other humanoid characters (pre-coded/learnt by unity) to get the animation of our character. This techqiue of using various characters to understand the structure/movement of the new character is called retargeting or inverse kinematics.!!
