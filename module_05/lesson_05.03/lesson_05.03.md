@@ -52,7 +52,7 @@ Now let's go ahead and add a starting idle animation to our character. When we p
     
 
 ![4.gif](public/assets/4.gif)
-
+An animator controller controls the logic for a characters movement such as when to go from resting to walking state and how fast to walk etc 
 ![animator](public/assets/5.png)
 
 12.  Now let's apply this animation to our prefab, so that when the game starts the character demonstrates an idle animation.
@@ -73,7 +73,7 @@ Now let's go ahead and add a starting idle animation to our character. When we p
 
 
 [comment]: <GM: the image below shows RigidBody and CapsuleColllider components on the character but I don't think we've added them yet>
-An animator controller controls the logic for a characters movement such as when to go from resting to walking state and how fast to walk etc 
+
 [comment]: <GM: you don't say to set the Animator Component properties like Update Mode and CullingMode, or uncheck Root Motion?: Addressed above in line #55>
 
 ![6.png](public/assets/6.png)
