@@ -52,7 +52,7 @@ Now let's go ahead and add a starting idle animation to our character. When we p
     
 
 ![4.gif](public/assets/4.gif)
-An animator controller controls the logic for a characters movement such as when to go from resting to walking state and how fast to walk etc 
+An animator controller controls the logic for a characters movement such as when to go from resting to walking state and how fast to walk etc. The animation controller helps us to control and maintain various animations for an object. The transition between various animations, their properties and various conditions can be controlled by the animation controller. The animation controller is represented as a block diagram and we can visually see the flow/connection between various blocks/animations. </br>
 ![animator](public/assets/5.png)
 
 12.  Now let's apply this animation to our prefab, so that when the game starts the character demonstrates an idle animation.
