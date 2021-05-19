@@ -81,7 +81,7 @@ using UnityEngine;
 
 public class MovementController : MonoBehaviour
 {
-    public float Speed = 5f; //movement speed(meters per second)
+    public float Speed = 5f; //movement speed(units per second)
     private Rigidbody body; // reference to the Rigidbody component
     private Vector3 inputs = Vector3.zero;//Your input at the very start will be zero. 
 
